@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./1.CSS">
+</head>
+<body>
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <div class="info_box">
+    <div class="info-title"><span>Some Rules of this Quiz</span></div>
+    <div class="infolist">
+        <div class="info"><span class="hello">1. You have 15 seconds for each question </span><br>— be quick and stay focused!</div>
+        <div class="info"><span class="hello">2. No going back </span><br>— once you select an answer, it’s locked in.</div>
+        <div class="info"><span class="hello">3.Each correct answer earns you points</span> <br>— aim for a high score!</div>
+        <div class="info"><span class="hello">4. Wrong answers won’t give points</span> <br>— think before you tap!</div>
+        <div class="info"><span class="hello">5. Complete the quiz to see your final result </span> </div>
+    </div>
+    <div class="buttons">
+        <button class="quit">Exit Quiz</button>
+        <button class="restart">Continue</button>
+    </div>
+</div>
+
+
+<div class="quiz_box">
+    <header>
+        <div class="title">Awesome Quiz Application</div>
+        <div class="timer">
+            <div class="time_left_txt">Time left</div>
+            <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text"></div>
+
+        <div class="option_list"></div>
+    </section>
+    <footer>
+        <div class="total_que"></div>
+        <button class="next_btn"> Next Question</button>
+    </footer>
+</div>
+
+
+  
+    <div class="result_box">
+        <div class="logo">
+            <img src="th (3).jpg" alt="Logo">
+          </div>
+        <!-- <div class="icon">
+            <i class="fas fa--crown"></i>
+        </div> -->
+        <div class="complete_text">you've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+<script src="question.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
